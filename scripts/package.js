@@ -96,6 +96,7 @@ resources.then(resources =>
           '--without-etw',
           '--without-perfctr',
           '--with-snapshot',
+          '--fully-static',
         ],
         make: ['-j', '8'],
         vcBuild: ['nosign', 'x64', 'noetw', 'noperfctr', 'vs2017'],
